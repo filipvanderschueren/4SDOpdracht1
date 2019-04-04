@@ -19,7 +19,7 @@ public class Chrono
     {
         begin = System.nanoTime();
         running = true;
-        //System.out.println("begin value inside chrone : " + begin);
+        System.out.println("start: begin value inside chrone : " + begin);
     }
 
     public void stop(String type)
@@ -27,7 +27,7 @@ public class Chrono
         if (running)
         {
             tijd = System.nanoTime()-begin;
-            //System.out.println("stop: tijd-begin inside chrone : " + tijd);
+            System.out.println("stop: tijd-begin inside chrone : " + tijd);
             print(type);
         }
         else

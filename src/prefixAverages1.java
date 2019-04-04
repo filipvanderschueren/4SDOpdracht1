@@ -9,14 +9,13 @@ public class prefixAverages1 {
 
     public   prefixAverages1()
     {
-
     }
 
     public int start(int n, int[] X)
     {
 
         c.start();
-        System.out.println("starting prefix 1");
+        System.out.println("t1, inside prefix 1");
 
         //System.out.println("chrono start inside 1 : " + c.getTijd());
 
@@ -44,7 +43,7 @@ public class prefixAverages1 {
 
 
         c.stop("t1");
-        System.out.println ("value gem : " + gem);
+        System.out.println ("t1, out of P1, value gem : " + gem);
         return gem;   //no return
     }
 }

@@ -19,7 +19,7 @@ public class prefixAverages2 {
     public int start(int n, int[] X)
     {
         c.start();
-        System.out.println("starting prefix 2");
+        System.out.println("t2, inside prefix 2");
 
         //n = X.length;        //toegevoegd - stond op 0
         a = 0;                              // 1
@@ -35,7 +35,7 @@ public class prefixAverages2 {
         }
                                             // Totaal: 1 + 1 + 2n + 2n + 3n = 7n + 2
         c.stop("t2");
-        System.out.println ("value gem : " + gem);
+        System.out.println ("t2: out of P1, value gem : " + gem);
         return gem;
     }
 }
